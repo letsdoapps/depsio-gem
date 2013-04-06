@@ -28,7 +28,7 @@ module Depsio
         begin
           RestClient.post config.endpoint, { :dependencies => dependencies, :type => :gemfile }
         rescue Exception => e
-          logger.error e 
+          logger.error "Deps.io: dependencies have not been updated, please retry later."
         end
       end
     end
