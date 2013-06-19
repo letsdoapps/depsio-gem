@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["contact@deps.io"]
   gem.description   = %q{Deps.io: Keep your project dependencies under control}
   gem.summary       = gem.description
-  gem.homepage      = "http://deps.io"
+  gem.homepage      = "http://github.com/letsdoapps/depsio-gem"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
